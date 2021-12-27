@@ -1,7 +1,7 @@
 
 # How to Test REST API at Client 
 
-<?php
+
 to access get All Inventory use 
 $url = 'http://localhost:8080/api/inventory/';
 $method = 'GET'
@@ -39,4 +39,3 @@ curl_setopt_array($curl, array(
 $result = curl_exec($curl);
 print_r(json_decode($result, true));
 
-?>
